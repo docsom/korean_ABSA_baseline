@@ -647,7 +647,7 @@ def test_sentiment_analysis(args):
     # jsondump(pred_data, './pred_data.json')
     # pred_data = jsonload('./pred_data.json')
 
-    print('F1 result: ', evaluation_f1(test_data, pred_data))
+    # print('F1 result: ', evaluation_f1(test_data, pred_data))
 
     pred_list = []
     label_list = []

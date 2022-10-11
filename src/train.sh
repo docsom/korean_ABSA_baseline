@@ -7,7 +7,7 @@ python sentiment_analysis.py \
   --do_eval \
   --learning_rate 3e-6 \
   --eps 1e-8 \
-  --num_train_epochs 20 \
+  --num_train_epochs 5 \
   --entity_property_model_path ../saved_model/category_extraction/ \
   --polarity_model_path ../saved_model/polarity_classification/ \
   --batch_size 8 \
